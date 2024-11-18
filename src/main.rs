@@ -26,7 +26,7 @@ async fn main() {
                 )
             })),
     )
-    .run(([127, 0, 0, 1], 3030))
+    .run(([0, 0, 0, 0], 3030))
     .await;
 
     println!("Server is running on localhost:3030");
